@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+label {
+  position: absolute;
+  opacity: 0.4;
+  font-size: 8px;
+  margin: 0px;
+  transform: translate(6px, -25px);
+}
+button {
+  border: 1px solid grey ;
+  background-color: lightgrey;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  width: 94.5%;
+  height: 35px;
+}
+
+table {
+  float: left;
+  position: absolute;
+  top: 300px;
+}
+
+.cf {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  position: relative;
+  /*width: 70%;
+  margin: auto auto;*/
+  /*align-content: center;*/
+  /*display: none;*/
+}
+
+.formbox {
+  background-color: rgba(0,0,0,0.01);
+  position: absolute;
+  width: 400px;
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 3px;
+  /*overflow: none;*/
+}
+
+.row {
+  display: inline;
+  float: left;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2px;
+  /*background: red;*/
+}
+.item {
+  float: left;
+  padding: 5px;
+}
+.inputbox {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid grey;
+  padding: 10px 5px 10px 5px;
+  /*padding-left: 20px;*/
+}
+.button {
+  width: 33%;
+  float: left;
+}
+input:focus + label {
+  opacity: 1;
+  transform: translate(6px, -45px);
+  transition: ease 1s;
+}
+
+
+#movie-title-div {
+  width: 80%;
+}
+#movie-year-div {
+  width: 20%;
+}
+#movie-budget-div {
+  width: 50%;
+}
+#movie-boxoffice-div {
+  width: 50%
+}
+#movie-imdb-div {
+  width: 33%;
+}
+#movie-rotten-div {
+  width: 33%;
+}
